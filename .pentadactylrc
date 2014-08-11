@@ -1,0 +1,17 @@
+"1.0rc1
+
+loadplugins '.(js|penta)$'
+group user
+highlight Hint font: bold 10px "Droid Sans Mono", monospace !important; margin: -.2ex; padding: 0 0 0 1px; outline: 1px solid rgba(0, 0, 0, .5); background: rgba(255, 248, 231, .8); color: black; font-size: 11pt !important;
+map -count -modes=i,n,v <C-c> <count><Pass>
+map -count -modes=i,n,v <C-v> <count><Pass>
+map -count -modes=i,n,v <C-a> <count><Pass>
+" map -count -modes=i,n,v ;j <Esc>
+map -count -modes=n,v B <count> :bmarks 
+map -count -modes=i <C-x> <Pass>
+map -modes=n J gT
+map -modes=n K gt
+set guioptions=bCrsT
+set hintkeys=asdfwervxtgq
+set hinttimeout=500
+" vim: set ft=pentadactyl:

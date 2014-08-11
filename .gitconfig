@@ -1,0 +1,13 @@
+[alias]
+    st = status
+    sh = stash
+    ci = commit
+    chp = cherry-pick
+    cim = commit -m
+    br = branch
+    co = checkout
+    df = diff
+    dcom = diff --cached
+    lg = log -p
+    sno = show --name-only
+    who = shortlog -s --
