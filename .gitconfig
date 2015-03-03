@@ -7,7 +7,11 @@
     br = branch
     co = checkout
     df = diff
+    # show changes to be committed
     dcom = diff --cached
     lg = log -p
+    # only show which files changed
     sno = show --name-only
     who = shortlog -s --
+    # push current branch to remote branch
+    pb = push origin HEAD
